@@ -15,20 +15,16 @@ def line(katz_deli)
     
   end
 
-# def take_a_number(katz_deli,name)
 
-
-  
-#   katz_deli.each_with_index do |value, index|
-#     new_index = index + 1
-#     puts message = "Welcome, #{value}. You are number #{new_index} in line."
-#     end
-#   puts message
-#   end
-
-# end
 
 def take_a_number(katz_deli, name)
+  
   katz_deli << name
+  
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+
 end
+
+
+
+def now_serving
