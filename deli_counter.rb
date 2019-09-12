@@ -10,7 +10,7 @@ def line(katz_deli)
        new_index = index + 1
        message = message + "#{value} #{new_index}"
     end
-    
+    message
   end
     
   end
