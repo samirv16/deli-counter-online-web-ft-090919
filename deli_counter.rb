@@ -8,7 +8,7 @@ def line(katz_deli)
 
     katz_deli.each_with_index do |value, index|
        new_index = index + 1
-       message = message + " #{value}. #{new_index}."
+       message = message + " #{new_index}. #{value}."
     end
    puts message
   end
