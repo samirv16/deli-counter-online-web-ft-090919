@@ -20,7 +20,6 @@ def take_a_number(katz_deli,name)
 
   
   katz_deli.each_with_index do |value, index|
-    
     new_index = index + 1
     puts message = "Welcome, #{value}. You are number #{new_index} in line."
      end
