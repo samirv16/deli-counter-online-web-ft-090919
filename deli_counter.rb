@@ -15,8 +15,13 @@ def line(katz_deli)
     
   end
 
-def take_a_number(katz_deli)
+def take_a_number(katz_deli,name)
 
-  katz_deli.push("Ada")
+  katz_deli.each_with_index do |value, index|
+       new_index = index + 1
+       message = message + " #{new_index}. #{value}"
+    end
+   puts message
+  end
 
 end
